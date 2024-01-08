@@ -33,7 +33,7 @@ ForEach ($profile in Get-NetConnectionProfile)
         {
             Disable-NetAdapter $adapter.Name -Confirm:$false
         }
-        else # enable the network adapter
+        else 
         {
             if ($disableIPv4)
             {
