@@ -12,7 +12,7 @@ $disableIPv6 = $true
 
 
 # When $disableCompletely is true, the network adapter ist disabled and the other variables are ignored.
-# Otherwise the network adapter stays enabled with the IP protocols switced on or off according to the variables.
+# Otherwise the network adapter stays enabled with the IP protocols switched on or off according to the variables.
 
 # WARNING: This script only detects an active network adapter. If you have completely disabled it or switched off
 #          both IP protocols, you have to reactivate ist manually.
